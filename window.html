@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Word List</title>
-  <style>
+    <head>
+        <title>Word List</title>
+        <style>
     #wordList {
       width: 200px;
       height: 100px;
@@ -12,16 +12,44 @@
     h1 {
         text-align: center;
     }
+    table {
+            width: 100%;
+            border-collapse: collapse;
+            display: none; /*hide the table initially*/
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
   </style>
-</head>
-<body>
-    <h1>Word Blocklist</h1>
-  <textarea id="wordList" placeholder="Enter words, separated by commas. Spaces are fine, and all words are case insensitive. 
+    </head>
+    <body>
+        <h1>Word Blocklist</h1>
+        <textarea id="wordList"
+            placeholder="Enter words, separated by commas. Spaces are fine, and all words are case insensitive. 
 Example:
 elon musk, trump"></textarea>
-  <button id="save">Save</button>
-  <script src="popup.js"></script>
-</body>
+        <button id="save">Save</button>
+        <script src="popup.js"></script>
+        <button id="viewList">View Blocked Posts List</button>
+        <button id="clearList">Clear Blocked Posts List</button>
+        <button id="hideList" style="display: none">Hide Blocked Posts List</button>
+        <table id="postsTable">
+            <thead>
+                <tr>
+                    <th>Post Title</th>
+                    <th>Post Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted here dynamically -->
+            </tbody>
+        </table>
+        <script src="popup.js"></script>
+    </body>
 </html>
-
 
