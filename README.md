@@ -47,3 +47,16 @@ feel free to submit issues/prs/fork the repo.
 ## **License**
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## Features
+
+### Implemented
+- [-] block list 
+
+### Planned / Proposed / In Progress
+- [-] fedilinks for lemmy (see `fedilink` branch)
+- [ ] fedilinks for mastodon
+- [ ] fedilinks for pixelfed
+- [ ] store blocked posts to view later
+- [ ] user tags
