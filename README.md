@@ -53,13 +53,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Implemented
 
-[-] block list 
-[-] store blocked posts to view later
-[-] view/clear/hide the blocked post list
+- [-] block list 
+- [-] store blocked posts to view later
+- [-] view/clear/hide the blocked post list
 
 ### Planned / Proposed / In Progress
 
-[-] fedilinks for lemmy (see `fedilink` branch)
-[ ] fedilinks for mastodon
-[ ] fedilinks for pixelfed
-[ ] user tags
+- [-] fedilinks for lemmy (see `fedilink` branch)
+- [ ] fedilinks for mastodon
+- [ ] fedilinks for pixelfed
+- [ ] user tags
